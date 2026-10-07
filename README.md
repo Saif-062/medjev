@@ -8,6 +8,8 @@ read from the next-token distribution in a single forward pass. There is no gene
 so a decision can be used directly as a branch condition. The adapter is a rank-16 LoRA (27.9M trainable parameters,
 56 MB). Base weights are fetched from Hugging Face at load time.
 
+Weights are also on the Hugging Face Hub: [helloimsaif/medjev-4b-lora](https://huggingface.co/helloimsaif/medjev-4b-lora).
+
 ## Results
 
 Accuracy under the same typed-decision prompt for the base model and for MedJev. The difference is a paired
