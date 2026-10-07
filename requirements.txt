@@ -1,0 +1,5 @@
+# tested with torch 2.14, transformers 5.19, peft 0.21
+torch>=2.4
+transformers>=5.0
+peft>=0.17
+accelerate>=1.0

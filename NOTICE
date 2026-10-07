@@ -1,0 +1,12 @@
+MedJev
+Copyright 2026 MedJev contributors
+
+MedJev is a LoRA adaptation of Qwen3.5-4B (Alibaba Cloud, Apache License 2.0,
+https://huggingface.co/Qwen/Qwen3.5-4B). The base weights are not redistributed here.
+
+Training data drew on the following public datasets (training splits only); see README for details.
+  - MedQA-USMLE (GBaker/MedQA-USMLE-4-options-hf)   CC BY-SA 4.0
+  - MedMCQA (openlifescienceai/medmcqa)              Apache-2.0
+  - PubMedQA (qiaojin/PubMedQA)                      MIT
+  - twitter-financial-news-sentiment (zeroshot)      MIT
+plus a small set of synthetic structured-record examples that are not distributed.
